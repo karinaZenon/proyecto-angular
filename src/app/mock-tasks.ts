@@ -23,5 +23,5 @@ export const TASKS : Task[] = [
     text: "Leer mi libro favorito",
     day: 'Agosto 5 a las 21:00',
     reninder: false,
-}
+},
 ]
