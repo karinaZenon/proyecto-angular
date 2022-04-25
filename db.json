@@ -1,22 +1,28 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Terminar primer modulo de Angular",
+      "text": "Terminar primer modulo de angular",
       "day": "Agosto 5 a las 12:00",
-      "reninder": true
+      "reninder": true,
+      "id": 1
     },
     {
-      "id": 2,
       "text": "Hacer las compras para la cena",
-      "day": "Agosto 5 a las 12:00",
-      "reninder": true
+      "day": "Agosto 5 a las 17:00",
+      "reninder": true,
+      "id": 2
     },
     {
-      "id": 3,
       "text": "Investigar sobre Boostrap",
       "day": "Agosto 5 a las 19:00",
-      "reninder": false
+      "reninder": true,
+      "id": 3
+    },
+    {
+      "text": "Nueva tarea ",
+      "day": "Hoy",
+      "reninder": true,
+      "id": 4
     }
   ]
 }

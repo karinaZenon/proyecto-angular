@@ -31,4 +31,9 @@ deleteTask(task:Task){
     task.reninder = !task.reninder
     this.taskService.updateTaskReninder(task).subscribe();
   }
+  addTask(task:Task){
+    this.taskService.addTask(task).subscribe((task)=>(
+     this.tasks.push(task) 
+    ))
+  }
 }
